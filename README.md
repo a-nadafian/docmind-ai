@@ -7,6 +7,14 @@ Advanced RAG System with Hybrid Retrieval, Reranking, and Evaluation.
 DocMind AI is a document question-answering system designed to retrieve
 relevant evidence and generate grounded answers with source citations.
 
+## Current Features
+
+- FastAPI application
+- Health endpoint
+- Automatically generated OpenAPI documentation
+- Automated tests using pytest and FastAPI TestClient
+- Dependency management using uv
+
 ## Planned Features
 
 - PDF and Markdown ingestion
@@ -16,14 +24,11 @@ relevant evidence and generate grounded answers with source citations.
 - Cross-encoder reranking
 - Grounded generation with citations
 - Automated retrieval and answer evaluation
-- FastAPI backend
 - Docker-based deployment
 
-## Project Status
+## Development Setup
 
-Initial repository setup.
+Install dependencies:
 
-## Evaluation
-
-Evaluation metrics and experimental results will be reported after
-implementing and testing the retrieval and generation pipelines.
+```powershell
+uv sync
