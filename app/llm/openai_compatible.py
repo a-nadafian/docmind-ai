@@ -5,8 +5,8 @@ import httpx
 
 from app.llm.base import LLMConfigurationError, LLMProviderError
 
-DEFAULT_BASE_URL = "https://openrouter.ai/api/v1"
-DEFAULT_MODEL = "openrouter/free"
+DEFAULT_BASE_URL = "https://api.groq.com/openai/v1"
+DEFAULT_MODEL = "openai/gpt-oss-20b"
 
 
 class OpenAICompatibleChatModel:
